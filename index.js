@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/download", (req, res) => {
-    const filePath = "file.pdf"; // Your file path
+    const filePath = "27-90248-002803.pdf"; // Your file path
     res.download(filePath); // Sends the file for download
 });
 
